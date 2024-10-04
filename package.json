@@ -2,7 +2,9 @@
   "name": "assignment03",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "Run tests": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
