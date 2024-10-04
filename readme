@@ -1,0 +1,5 @@
+npx init playwright@latest
+npm install dotenv
+npm install --save-dev @faker-js/faker
+docker build -t my-vue-app . 
+o docker run -d -p 3000:3000 my-vue-app 
