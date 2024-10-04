@@ -43,6 +43,8 @@ jobs:
         env: 
           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
           TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+          BASE_URL: ${{ secrets.BASE_URL }}
+          BASE_URL_API: ${{ secrets.BASE_URL_API }}
         run: npm run run-tests
 
       # Publish results
